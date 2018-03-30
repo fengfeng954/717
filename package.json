@@ -1,0 +1,50 @@
+{
+  "name": "react-env",
+  "version": "1.0.0",
+  "description": "a simple react dev env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NOOE_ENV=development webpack-dev-server --progress --color --profile --config config/webpack.dev.js",
+    "start": "cross-env NOOE_ENV=production webpack --progress --color --config config/webpack.build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.1.4",
+    "cross-spawn": "^6.0.5",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.14.0",
+    "eslint-plugin-react": "^7.5.1",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.6",
+    "font": "^0.0.4",
+    "http": "^0.0.0",
+    "jsonwebtoken": "^8.2.0",
+    "less": "^2.7.3",
+    "mock": "^0.1.1",
+    "mockjs": "^1.0.1-beta3",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "antd": "^3.1.0",
+    "less-loader": "^4.0.5",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "swiper": "^4.0.7"
+  }
+}
